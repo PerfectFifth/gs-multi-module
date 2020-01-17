@@ -16,4 +16,8 @@ public class Jack {
 	public String message() {
 		return this.serviceProperties.getMessage();
 	}
+	
+	public String value() {
+		return "Tesp";
+	}
 }

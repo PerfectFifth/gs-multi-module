@@ -1,6 +1,7 @@
-package com.example.multimodule.application;
+package com.example.appstart;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
@@ -18,6 +19,17 @@ public class DemoApplicationTest {
 	@Test
 	public void contextLoads() {
 		assertThat(myService.message()).isNotNull();
+	}
+	
+	@Test
+	public void returnsCorrectValue() {
+		
+		
+		String value = myService.value();
+	
+		
+		
+		assertEquals("Tesp", value);
 	}
 
 }
