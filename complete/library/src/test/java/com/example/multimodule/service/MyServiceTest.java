@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class MyServiceTest {
 
 	@Autowired
-	private MyService myService;
+	private Jack myService;
 
 	@Test
 	public void contextLoads() {

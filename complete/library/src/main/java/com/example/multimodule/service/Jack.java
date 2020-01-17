@@ -5,11 +5,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 @EnableConfigurationProperties(ServiceProperties.class)
-public class MyService {
+public class Jack {
 
 	private final ServiceProperties serviceProperties;
 
-	public MyService(ServiceProperties serviceProperties) {
+	public Jack(ServiceProperties serviceProperties) {
 		this.serviceProperties = serviceProperties;
 	}
 
